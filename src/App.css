@@ -1,0 +1,47 @@
+#root,
+body,
+html {
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .welcome-page .custom-cursor {
+    display: none;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888888a1;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #888888c2;
+}
+
+html.dark ::-webkit-scrollbar-thumb {
+  background-color: #5e5e5ea1;
+  border-radius: 5px;
+}
+
+html.dark ::-webkit-scrollbar-thumb:hover {
+  background-color: #888888c2;
+}
+
+.w-md-editor-preview ol,
+.wmde-markdown ol {
+  list-style: auto !important;
+}
+
+.w-md-editor-preview ul,
+.wmde-markdown ul {
+  list-style-type: initial !important;
+}
