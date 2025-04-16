@@ -65,7 +65,7 @@ export default function AdminLeaderboardPage() {
       const { data } = await Axios.get("/challenges/admin-leaderboard");
       return data;
     },
-    refetchInterval: 5000,
+  
   });
 
   useEffect(() => {
